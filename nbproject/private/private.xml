@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="Group 20181027-07:22:41">
+            <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/web/WEB-INF/views/cadastro_caminhoneiro.jsp</file>
+            <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/src/java/br/csi/controller_servlets/Login_Cliente_Servlet.java</file>
+            <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/web/WEB-INF/views/busca_caminhoneiro.jsp</file>
+            <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/web/WEB-INF/views/sucesso.jsp</file>
+            <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/src/java/br/csi/controller_servlets/Cadastra_Gerente_Servlet.java</file>
+            <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/web/login_gerente.jsp</file>
+            <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/src/java/br/csi/dao/ClienteDAO.java</file>
+            <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/src/java/br/csi/dao/ConectaDB_Postgres.java</file>
+            <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/src/java/br/csi/controller_servlets/Busca_Caminhoneiro_Servlet.java</file>
+            <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/src/java/br/csi/dao/CaminhoneiroDAO.java</file>
+            <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/src/java/br/csi/model/Caminhoneiro.java</file>
+            <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/src/java/br/csi/controller_servlets/Cadastra_Caminhoneiro_Servlets.java</file>
+            <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/web/WEB-INF/views/sucesso_gerente.jsp</file>
+            <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/src/java/br/csi/controller_servlets/Login_Gerente_Servlet.java</file>
+        </group>
+    </open-files>
+</project-private>
