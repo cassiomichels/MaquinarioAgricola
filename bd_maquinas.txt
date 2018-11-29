@@ -1,0 +1,74 @@
+
+create table caminhoneiro(
+id serial,
+nome varchar(50) not null,
+email varchar(50) not null unique,
+endereco varchar(100) not null,
+placa varchar(100) not null,
+primary key(id));
+
+
+create table produto(
+id serial,
+nome varchar(50) not null,
+descricao varchar(2000) not null,
+primary key(id));
+
+
+create table cliente(
+id serial,
+nome varchar(50) not null,
+email varchar(100) not null unique,
+senha varchar(50) not null,
+endereco varchar(100) not null,
+primary key(id));
+
+
+create table vendedor(
+id serial,
+nome varchar(50) not null,
+email varchar(100) not null unique,
+senha varchar(50) not null,
+
+primary key(id));
+
+
+create table pedido(
+id serial,
+id_cliente int,
+id_caminhoneiro int,
+id_produto int,
+endereco varchar(100) not null,
+primary key(id),
+FOREIGN KEY (id_cliente) REFERENCES cliente(id),
+FOREIGN KEY (id_caminhoneiro) REFERENCES caminhoneiro(id),
+FOREIGN KEY (id_produto) REFERENCES produto(id));
+
+	
+
+insert into cliente(nome, email, senha, endereco) values('Cassio','cassio@michels','123','rua Duque 22');
+insert into cliente(nome, email, senha, endereco) values('Alencar','alencas@ufsm','12345','rua Andradas 2333 ap 2234');
+insert into cliente(nome, email, senha, endereco) values('Fabiana','bibi@gmail','12322','rua Pinheiro Machado 333');
+insert into cliente(nome, email, senha, endereco) values('Fakada','fakada@email','1222233','Presidio SM');
+
+
+insert into vendedor(nome, email, senha) values('cassio','cassio@gmail.com','123');
+insert into vendedor(nome, email, senha) values('pedro','pedr@gmail.com','123');
+insert into vendedor(nome, email, senha) values('teste','teste@teste','123');
+
+
+insert into caminhoneiro(nome, email, endereco, placa) values('nelson','nelson@gmail.com','rua 1','abc-1233');
+insert into caminhoneiro(nome, email, endereco, placa) values('polenta','polenta@gmail.com','rua 2','abd-1233');
+insert into caminhoneiro(nome, email, endereco, placa) values('Nestor','nestor@gmail.com','rua 76','zsc-1233');
+insert into caminhoneiro(nome, email, endereco, placa) values('carlos','carlinhos@gmail.com','rua 1','abc-1233');
+insert into caminhoneiro(nome, email, endereco, placa) values('Anderson','ssdta@gmail.com','rua 6','abd-1233');
+insert into caminhoneiro(nome, email, endereco, placa) values('Nestor jose','nestorj@gmail.com','rua 76','zsc-1344');
+
+
+insert into produto(nome, descricao) values('Trator pequeno','Usado apenas em pequenas lavouras');
+insert into produto(nome, descricao) values('Trator medio','Usado lavouras de pequeno e medio porte');
+insert into produto(nome, descricao) values('colheitadeira','Usado em grandes propriedades de terra para agilizar o trabalho');
+insert into produto(nome, descricao) values('Trator grande','Usado lavouras de grande porte');
+
+
+insert into pedido(id_cliente, id_caminhoneiro, id_produto, endereco) values(1,1,1,'rua Duque 22');
