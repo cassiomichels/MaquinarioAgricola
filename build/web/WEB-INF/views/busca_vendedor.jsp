@@ -32,11 +32,14 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <c:forEach items="${gerentes}" var="gerente">
+                    <c:forEach items="${vendedores}" var="vendedor">
                         <tr>
-                            <td><c:out value="${gerente.id}"/></td>
-                            <td><c:out value="${gerente.nome}"/></td>
-                            <td><c:out value="${gerente.email}"/></td> <br /></td>                        
+                            <td><c:out value="${vendedor.id}"/></td>
+                            <td><c:out value="${vendedor.nome}"/></td>
+                            <td><c:out value="${vendedor.email}"/></td> <br /></td>  
+                            <td class="text-center">
+                          <a href="http://localhost:8080/MaquinariosAgricola/deletar_vendedor?id=${vendedor.id}"  class="btn btn-danger btn-lg">Deletar</a>
+                      </td>
                         </tr>                        
                     </c:forEach>          
                 </tbody>						
