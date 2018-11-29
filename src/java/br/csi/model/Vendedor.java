@@ -2,7 +2,7 @@
 package br.csi.model;
 
 
-public class Vendedor extends Funcionario {
+public class Vendedor extends Funcionario implements Autenticavel {
     private int id;
     private String senha;
 

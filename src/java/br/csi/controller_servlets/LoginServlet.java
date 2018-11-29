@@ -26,7 +26,7 @@ public class LoginServlet extends HttpServlet {
         RequestDispatcher disp;
         try
         {
-            Autenticavel usuarioAutenticado = autenticador.Autenticar(email, senha);
+            Autenticavel usuarioAutenticado = autenticador.autenticar(email, senha);
             
             HttpSession sessao = req.getSession();
             sessao.setAttribute("usuarioLogado", usuarioAutenticado);
