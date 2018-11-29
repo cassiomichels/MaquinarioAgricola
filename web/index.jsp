@@ -24,21 +24,17 @@
         <div class="col-md-6">
             <div class="card text-white p-5 bg-dark">
                 <div class="card-body bg-">
-                    <h1 class="mb-4">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bem-vindo 
-                        
-                        <br>
-                        <br> </h1>
-                            
-                   
+                    <h1 class="mb-4">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bem-vindo </h1> 
                     <br>
-        <a href="http://localhost:8080/MaquinariosAgricola/login_cliente.jsp">
-     <button class="btn btn-primary">Logar como Cliente</button>
-</a><br>
-<br>
-<br>
-                    <a href="http://localhost:8080/MaquinariosAgricola/login_vendedor.jsp">
-     <button class="btn btn-primary"> Logar como Vendedor</button>
-</a>
+                    <br>
+                    
+                    <form action="login" method="POST">
+                        <label for="login">Email:</label>
+                            <input type="email" name="email" />
+                            <label for="senha">Senha:</label>
+                            <input type="password" name="senha" />
+                            <button type="submit" class="btn btn-primary">LOGAR</button>
+                    </form>
                     <br>
 
 
