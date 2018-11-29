@@ -18,5 +18,21 @@
             <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/web/WEB-INF/views/sucesso_gerente.jsp</file>
             <file>file:/C:/Users/Pichau/Desktop/MaquinariosAgricula/src/java/br/csi/controller_servlets/Login_Gerente_Servlet.java</file>
         </group>
+        <group>
+            <file>file:/C:/Users/aluno/Documents/GitHub/MaquinarioAgricola/web/index.jsp</file>
+            <file>file:/C:/Users/aluno/Documents/GitHub/MaquinarioAgricola/src/java/br/csi/model/Autenticavel.java</file>
+            <file>file:/C:/Users/aluno/Documents/GitHub/MaquinarioAgricola/src/java/br/csi/controller_servlets/Busca_Caminhoneiro_Servlet.java</file>
+            <file>file:/C:/Users/aluno/Documents/GitHub/MaquinarioAgricola/src/java/br/csi/model/Funcionario.java</file>
+            <file>file:/C:/Users/aluno/Documents/GitHub/MaquinarioAgricola/web/login_vendedor.jsp</file>
+            <file>file:/C:/Users/aluno/Documents/GitHub/MaquinarioAgricola/src/java/br/csi/servicos/Autenticador.java</file>
+            <file>file:/C:/Users/aluno/Documents/GitHub/MaquinarioAgricola/src/java/br/csi/excecoes/AutenticacaoException.java</file>
+            <file>file:/C:/Users/aluno/Documents/GitHub/MaquinarioAgricola/src/java/br/csi/dao/ConectaDB_Postgres.java</file>
+            <file>file:/C:/Users/aluno/Documents/GitHub/MaquinarioAgricola/src/java/br/csi/model/Vendedor.java</file>
+            <file>file:/C:/Users/aluno/Documents/GitHub/MaquinarioAgricola/src/java/br/csi/controller_servlets/LogoutServlet.java</file>
+            <file>file:/C:/Users/aluno/Documents/GitHub/MaquinarioAgricola/web/login_cliente.jsp</file>
+            <file>file:/C:/Users/aluno/Documents/GitHub/MaquinarioAgricola/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/aluno/Documents/GitHub/MaquinarioAgricola/src/java/br/csi/model/Cliente.java</file>
+            <file>file:/C:/Users/aluno/Documents/GitHub/MaquinarioAgricola/src/java/br/csi/controller_servlets/LoginServlet.java</file>
+        </group>
     </open-files>
 </project-private>

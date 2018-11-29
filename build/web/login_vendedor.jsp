@@ -1,4 +1,4 @@
-<%-- 
+    <%-- 
     Document   : index
     Created on : 09/10/2018, 19:31:02
     Author     : Pichau
@@ -27,7 +27,7 @@
                     <h1 class="mb-4">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login Vendedor
                         <br>
                         <br> </h1>
-                            <form action="logar_vendedor" method="POST">
+                            <form action="login" method="POST">
             <label for="login">Login:</label>
             <input type="email" name="email" />
             <label for="senha">Senha:</label>

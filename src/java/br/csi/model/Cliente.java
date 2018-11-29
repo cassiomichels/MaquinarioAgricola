@@ -9,7 +9,7 @@ package br.csi.model;
  *
  * @author Pichau
  */
-public class Cliente {
+public class Cliente implements Autenticavel{
     
     private int id;
     private String nome;

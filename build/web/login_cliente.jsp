@@ -24,26 +24,26 @@
         <div class="col-md-6">
             <div class="card text-white p-5 bg-dark">
                 <div class="card-body bg-">
-                    <h1 class="mb-4">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login Cliente
-                        <br>
-                        <br> </h1>
-                            <form action="logar_cliente" method="POST">
-            <label for="login">Login:</label>
-            <input type="email" name="email" />
-            <label for="senha">Senha:</label>
-            <input type="password" name="senha" />
-            <button type="submit" class="btn btn-primary">LOGAR</button>
-        </form>
+                    <h1 class="mb-4">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login Cliente</h1>
                     <br>
-        <a href="http://localhost:8080/Delivery/cadastro_cliente">
-     <button class="btn btn-primary">Crie seu cadastro</button>
-</a>
                     <br>
-<c:if test="${not empty mensagem}">
-    <h2> OPS: 
-        <strong style="color:red;">${mensagem}</strong>
-    </h2>
-</c:if>  
+                    <form action="login" method="POST">
+                        <label for="login">Email:/label>
+                            <input type="email" name="email" />
+                            <label for="senha">Senha:</label>
+                            <input type="password" name="senha" />
+                            <button type="submit" class="btn btn-primary">LOGAR</button>
+                    </form>
+                    <br>
+                    <a href="http://localhost:8080/Delivery/cadastro_cliente">
+                        <button class="btn btn-primary">Crie seu cadastro</button>
+                    </a>
+                    <br>
+                    <c:if test="${not empty mensagem}">
+                        <h2> OPS: 
+                            <strong style="color:red;">${mensagem}</strong>
+                        </h2>
+                    </c:if>  
 
                 </div>
             </div>
